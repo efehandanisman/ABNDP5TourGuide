@@ -1,6 +1,64 @@
 <resources>
     <string name="app_name">ABNDP5TourGuide</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ArtMuseum">ART MUSEUM</string>
+    <string name="Surrounding">SURROUNDING</string>
+    <string name="TouristicSight">TOURISTIC SIGHT</string>
+    <string name="Restaurant">RESTAURANT</string>
+    <string name="Sabanci">Sabancı Museum</string>
+    <string name="SabanciEntry">Entry:20TL</string>
+    <string name="SabanciOpening">Everyday between 10-17</string>
+
+    <string name="Pera">Pera Museum</string>
+    <string name="PeraEntry">Entry:30TL-Free on Friday</string>
+    <string name="PeraOpening">Everyday between 10-18</string>
+
+    <string name="IstanbulMod">Istanbul Modern Arts Museum</string>
+    <string name="IstanbulModEntry">Entry:40TL-Free on Thursday</string>
+    <string name="IstanbulModOpen">Everyday between 10-18</string>
+
+    <string name="Adana">Adana</string>
+    <string name="AdanaRange">Mid-range</string>
+    <string name="AdanaHours">From noon till 01 midnight</string>
+
+    <string name="Ciya">Ciya</string>
+    <string name="CiyaRange">High</string>
+    <string name="CiyaHours">From noon till midnight</string>
+
+    <string name="Nusret">Nusret Steak House a.k.a. Salt Bae</string>
+    <string name="NusretRange">Super High</string>
+    <string name="NusretHours">From 11 till 3 midnight</string>
+
+    <string name="Vira">Vira Fish Restaurant</string>
+    <string name="ViraRange">High</string>
+    <string name="ViraHours">From 13 till midnight</string>
+
+    <string name="Polkoy">Polonezköy</string>
+    <string name="PolkoyRange">High-range</string>
+    <string name="PolkoyWhen">Good for weekend</string>
+
+    <string name="Adalar">Adalar</string>
+    <string name="AdalarRange">Medium-range</string>
+    <string name="AdalarWhen">Less crowded at weekdays</string>
+
+    <string name="Hisar">Anadoluhisarı</string>
+    <string name="HisarRange">Medium-range</string>
+    <string name="HisarWhen">Good for romantinc time</string>
+
+    <string name="BlueMosque">Blue Mosque</string>
+    <string name="BlueMosqueEntry">Free</string>
+    <string name="BlueMosqueHours">09-19</string>
+
+    <string name="Ayasofya">Hagia Sophia</string>
+    <string name="AyasofyeEntry">50TL</string>
+    <string name="AyasofyaHours">09-18</string>
+
+    <string name="Topkapi">Topkapi Palace</string>
+    <string name="TopkapiEntry">50TL</string>
+    <string name="TopkapiHours">09-18, Closed on Mondays</string>
+
+
+
+
 </resources>

@@ -39,9 +39,9 @@ public class SurroundingFragment extends Fragment {
 
 
         final ArrayList<Sight> Surroundings = new ArrayList<>();
-        Surroundings.add(new Sight(R.drawable.polkoy, "Polonezköy", "High-range", "Good for weekend"));
-        Surroundings.add(new Sight(R.drawable.adalar, "Prince Islands", "Medium-range", "Less crowded at weekdays"));
-        Surroundings.add(new Sight(R.drawable.hisar, "Anadoluhisarı", "Medium-range", "Good for romantinc time"));
+        Surroundings.add(new Sight(R.drawable.polkoy, getString(R.string.Polkoy), getString(R.string.PolkoyRange), getString(R.string.PolkoyWhen)));
+        Surroundings.add(new Sight(R.drawable.adalar, getString(R.string.Adalar), getString(R.string.AdalarRange), getString(R.string.AdalarWhen)));
+        Surroundings.add(new Sight(R.drawable.hisar, getString(R.string.Hisar), getString(R.string.HisarRange), getString(R.string.HisarWhen)));
 
         SightAdapter adapter = new SightAdapter(getActivity(), Surroundings);
         ListView listItemView = (ListView) rootView.findViewById(R.id.list);

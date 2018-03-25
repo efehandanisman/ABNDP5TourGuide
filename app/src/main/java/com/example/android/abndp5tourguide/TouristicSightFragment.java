@@ -38,9 +38,9 @@ public class TouristicSightFragment extends Fragment {
 
 
         final ArrayList<Sight> touristicsights = new ArrayList<>();
-        touristicsights.add(new Sight(R.drawable.bluemosque, "Blue Mosque", "Free", "09-17"));
-        touristicsights.add(new Sight(R.drawable.ayasofya, "Hagiasophia", "50TL", "09-17"));
-        touristicsights.add(new Sight(R.drawable.topkapi, "Topkapi Palace", "50TL", "09-17"));
+        touristicsights.add(new Sight(R.drawable.bluemosque, getString(R.string.BlueMosque), getString(R.string.BlueMosqueEntry), getString(R.string.BlueMosqueHours)));
+        touristicsights.add(new Sight(R.drawable.ayasofya, getString(R.string.Ayasofya), getString(R.string.AyasofyeEntry), getString(R.string.AyasofyaHours)));
+        touristicsights.add(new Sight(R.drawable.topkapi, getString(R.string.Topkapi), getString(R.string.TopkapiEntry), getString(R.string.TopkapiHours)));
 
         SightAdapter adapter = new SightAdapter(getActivity(), touristicsights);
         ListView listItemView = (ListView) rootView.findViewById(R.id.list);

@@ -9,6 +9,8 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.support.v4.view.ViewPager;
+
 
 import java.util.ArrayList;
 
@@ -19,7 +21,7 @@ import java.util.ArrayList;
 public class SightAdapter extends ArrayAdapter<Sight> {
 
     public SightAdapter(Context context, ArrayList<Sight> Sight) {
-        super(context,0,Sight);
+        super(context, 0, Sight);
     }
 
     @Override
@@ -43,7 +45,7 @@ public class SightAdapter extends ArrayAdapter<Sight> {
 
         ImageView SightImageView = listItemView.findViewById(R.id.sightImage);
         if (currentSight.hasImage()) {
-        SightImageView.setImageResource(currentSight.getImageId());
+            SightImageView.setImageResource(currentSight.getImageId());
             SightImageView.setVisibility(View.VISIBLE);
         } else {
             // Otherwise hide the ImageView (set visibility to GONE)
@@ -54,5 +56,6 @@ public class SightAdapter extends ArrayAdapter<Sight> {
         OpeningHours.setText(currentSight.getOpeningHours());
         return listItemView;
     }
+
 
 }

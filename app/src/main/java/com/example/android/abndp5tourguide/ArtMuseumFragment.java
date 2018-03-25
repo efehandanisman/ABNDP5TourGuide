@@ -38,9 +38,9 @@ public class ArtMuseumFragment extends Fragment {
 
 
         final ArrayList<Sight> ArtMuseums = new ArrayList<>();
-        ArtMuseums.add(new Sight("Sabancı Museum", "20TL", "10-17"));
-        ArtMuseums.add(new Sight("Pera Museum", "30TL-Free on Friday", "10-18"));
-        ArtMuseums.add(new Sight( "Istanbul Modern Arts", "40TL-Free on Thursday", "10-18"));
+        ArtMuseums.add(new Sight(getString(R.string.Sabanci), getString(R.string.SabanciEntry), getString(R.string.SabanciOpening)));
+        ArtMuseums.add(new Sight("Pera Museum", "Entry:30TL-Free on Friday", "10-18"));
+        ArtMuseums.add(new Sight( "Istanbul Modern Arts", "Entry:40TL-Free on Thursday", "10-18"));
 
         SightAdapter adapter = new SightAdapter(getActivity(), ArtMuseums);
         ListView listItemView = (ListView) rootView.findViewById(R.id.list);

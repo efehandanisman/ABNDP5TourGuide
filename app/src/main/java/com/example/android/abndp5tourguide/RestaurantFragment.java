@@ -38,10 +38,10 @@ public class RestaurantFragment extends Fragment {
 
 
         final ArrayList<Sight> Restaurants = new ArrayList<>();
-        Restaurants.add(new Sight(R.drawable.adana, "Adana", "Mid-range", "12-01"));
-        Restaurants.add(new Sight(R.drawable.ciya, "Ciya", "High", "12-00"));
-        Restaurants.add(new Sight(R.drawable.nusret, "Nusret Steak House a.k.a. Salt Bae", "Super High", "11-03"));
-        Restaurants.add(new Sight(R.drawable.vira, "Vira", "High", "13-00"));
+        Restaurants.add(new Sight(R.drawable.adana, getString(R.string.Adana), getString(R.string.AdanaRange), getString(R.string.AdanaHours)));
+        Restaurants.add(new Sight(R.drawable.ciya, getString(R.string.Ciya), getString(R.string.CiyaRange), getString(R.string.CiyaHours)));
+        Restaurants.add(new Sight(R.drawable.nusret, getString(R.string.Nusret), getString(R.string.NusretRange), getString(R.string.NusretHours)));
+        Restaurants.add(new Sight(R.drawable.vira, getString(R.string.Vira), getString(R.string.ViraRange), getString(R.string.ViraHours)));
         SightAdapter adapter = new SightAdapter(getActivity(), Restaurants);
         ListView listItemView = (ListView) rootView.findViewById(R.id.list);
         listItemView.setAdapter(adapter);
